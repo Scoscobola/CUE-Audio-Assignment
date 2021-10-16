@@ -1,0 +1,24 @@
+.todo-list li .unarchive {
+	display: inline;
+	position: absolute;
+	top: 0;
+	right: 100px;
+	bottom: 0;
+	width: 150px;
+	height: 40px;
+	margin: auto 0;
+	font-size: 15px;
+	color: #cc9a9a;
+	margin-bottom: 11px;
+}
+
+.todo-list li .new-toggle {
+	text-align: center;
+	width: 40px;
+	/* auto, since non-WebKit browsers doesn't support input styling */
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0.5rem;
+}
